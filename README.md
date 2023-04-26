@@ -7,7 +7,7 @@ chmod +x ~/.local/bin/create_git
 ```
 
 ## Usage
-1. navigate to local directory`
+1. navigate to local directory
     `cd local_dir`
 2. run
     `create_git`
