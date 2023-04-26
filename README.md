@@ -2,8 +2,8 @@
 ## Installation
 ```
 git clone https://github.com/frederikziebell/create_git
-cp create_git/create_git.sh ~/.local/bin/create_git.sh
-chmod +x ~/.local/bin/create_git.sh
+cp create_git/create_git ~/.local/bin/create_git
+chmod +x ~/.local/bin/create_git
 ```
 
 ## Usage
