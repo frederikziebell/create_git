@@ -1,5 +1,12 @@
 #!/bin/bash
 
+# check if Github CLI is installed
+if ! command -v gh &> /dev/null
+then
+    echo "Command 'gh' could not be found. Please install Github CLI from https://github.com/cli"
+    exit
+fi
+
 # if not logged into Github, do login
 if gh auth status 2>&1 >/dev/null | grep -q "not logged"; then
   gh auth login
