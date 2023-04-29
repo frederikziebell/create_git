@@ -3,7 +3,7 @@
 # check if Github CLI is installed
 if ! command -v gh &> /dev/null
 then
-    echo "Command 'gh' could not be found. Please install Github CLI from https://github.com/cli"
+    echo "Command 'gh' could not be found. Please install Github CLI from https://github.com/cli/cli"
     exit
 fi
 
