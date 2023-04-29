@@ -6,7 +6,7 @@ You have a local directory with some files that you want to turn into a git repo
 ## Installation
 ```
 git clone https://github.com/frederikziebell/create_github
-cp create_git/create_github ~/.local/bin/create_github
+cp create_github/create_github ~/.local/bin/create_github
 chmod +x ~/.local/bin/create_github
 ```
 
