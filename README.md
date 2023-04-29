@@ -5,13 +5,13 @@ You have a local directory with some files that you want to turn into a git repo
 
 ## Installation
 ```
-git clone https://github.com/frederikziebell/create_git
-cp create_git/create_git ~/.local/bin/create_git
-chmod +x ~/.local/bin/create_git
+git clone https://github.com/frederikziebell/create_github
+cp create_git/create_git ~/.local/bin/create_github
+chmod +x ~/.local/bin/create_github
 ```
 
 ## Usage
 1. navigate to local directory
     `cd local_dir`
 2. run
-    `create_git`
+    `create_github`
