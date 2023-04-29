@@ -4,7 +4,8 @@
 You have a local directory with some files that you want to turn into a git repo and prepare for pushing it to Github. The command `create_git` simply initializes a git repo in the current directory, create a Github repo of the name of the current directory and commits an initial README.md file.
 
 ## Installation
-1. Install [Github CLI]([url](https://github.com/cli))
+1. Install [Github CLI](https://github.com/cli/cli)
+
 2. Run
 ```
 git clone https://github.com/frederikziebell/create_github
